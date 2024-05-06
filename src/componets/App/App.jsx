@@ -1,23 +1,25 @@
 import './App.css'
+import { Buttons } from '../Buttons/Buttons'
+import { Info } from '../Info/Info'
+import { Socials } from '../Socials/Socials'
+import { ProfileImg } from '../ProfileImg/ProfileImg'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Example project</h1>
+    <div className='AppContainer'>
+
+      <ProfileImg />
+      <Info />
+      <Socials />
+      <Buttons />
+
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+    </div>
+    
   )
 }
 
