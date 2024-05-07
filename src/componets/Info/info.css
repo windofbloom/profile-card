@@ -1,0 +1,21 @@
+.Info-Container {
+    margin-bottom: 20px;
+}
+
+.Info-Container__title {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: var(--fw-bold);
+}
+
+.Info-Container__subtitle{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: var(--fw-light);
+}
+
+.Info-Container__text {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: var(--fw-regular);
+}

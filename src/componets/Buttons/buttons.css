@@ -1,0 +1,30 @@
+.Button-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.Portfolio-button {
+    color: var(--light-color);
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Portfolio-button:hover {
+    border: var(--primary-color) 2px solid;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.button_uxui {
+    background-color: var(--primary-color);
+    border: var(--primary-color) 2px solid;
+}
+
+.button_art {
+    background-color: var(--accent-color);
+    border: var(--accent-color) 2px solid;
+}

@@ -10,12 +10,14 @@ function App() {
   return (
     <div className='AppContainer'>
 
-      <ProfileImg />
-      <Info />
-      <Socials />
-      <Buttons />
+      <div className='AppContainer__img'>
+        <ProfileImg />
+      </div>
 
-      <div className="card">
+      <div className='AppContainer__info'>
+        <Info />
+        <Socials />
+        <Buttons />
       </div>
 
     </div>
