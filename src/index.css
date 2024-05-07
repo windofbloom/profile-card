@@ -75,6 +75,8 @@ svg {
   --fw-light: 100;
   --fw-regular: 300;
   --fw-bold: 700;
+
+  
 }
 
 body {
@@ -86,4 +88,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: var(--primary-color);
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
 }

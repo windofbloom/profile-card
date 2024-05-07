@@ -4,12 +4,12 @@ function Buttons () {
 
     return(
         <div className='Button-Container'>
-            <button className='Portfolio-button button_uxui'>
+            <a href='https://www.behance.net/gallery/197509895/UXUI-Designer-Portfolio' className='Portfolio-button button_uxui'>
                 UX/UI Portfolio
-            </button>
-            <button className='Portfolio-button button_art'>
+            </a>
+            <a href='https://cara.app/windofbloom' className='Portfolio-button button_art'>
                Art Portfolio
-            </button>
+            </a>
         </div>
     )
 }
