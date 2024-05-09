@@ -1,11 +1,12 @@
 .AppContainer {
-    max-width: 80%;
+    max-width: 70%;
     min-height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
+    margin-top: 30px;
     /* From https://css.glass */
     background: rgba(151, 178, 223, 0.31);
     border-radius: 16px;
@@ -26,3 +27,12 @@
     flex-direction: column;
     padding: 50px;
 }
+
+/***RESPONSIVE***/
+ 
+@media screen and (max-width: 768px) {
+    .AppContainer {
+        max-width: 95%;
+    }
+  
+ }

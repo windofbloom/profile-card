@@ -1,4 +1,23 @@
 .profile__img {
-    max-width: 500px;
     border-radius: 30px;
+    max-width: 500px;
+    min-width: 340px;
+    min-height: 400px;
+    margin: 0 auto;
 }
+
+/***RESPONSIVE***/
+ 
+@media screen and (max-width: 768px) {
+    .profile__img {
+        max-width: 340px;
+    }
+  
+ }
+
+ @media screen and (max-width: 744px) {
+    .profile__img {
+        max-width: 340px;
+        min-height: 400px;
+    }
+ }
