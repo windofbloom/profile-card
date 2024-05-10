@@ -1,11 +1,12 @@
+import { FigmaIcon } from '@hugeicons/react-pro';
 import './socials.css'
 
 function Socials () {
     
     return(
-        <div className='Socials'>
-
-        </div>
+        <span className='Socials'>
+            <FigmaIcon />
+        </span>
     )
 
 }
