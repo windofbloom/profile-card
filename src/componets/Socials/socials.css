@@ -1,4 +1,6 @@
 .Socials {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
 }
