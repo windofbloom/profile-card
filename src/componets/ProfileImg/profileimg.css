@@ -2,7 +2,6 @@
     border-radius: 30px;
     max-width: 500px;
     min-width: 340px;
-    min-height: 400px;
 }
 
 /***RESPONSIVE***/
@@ -17,6 +16,5 @@
  @media screen and (max-width: 744px) {
     .profile__img {
         max-width: 340px;
-        min-height: 400px;
     }
  }

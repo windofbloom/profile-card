@@ -82,12 +82,13 @@ svg {
 body {
   scroll-behavior: smooth;
   font-family: var(--ff-primary);
-  background-image: url('..\src\assets\imgs\tarnished2.png');
+  background-image: url('..\src\assets\imgs\background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: var(--primary-color);
+  overflow: hidden;
 }
 
 a:link, a:visited, a:active {

@@ -1,5 +1,4 @@
 .Info-Container {
-    margin-bottom: 20px;
     width: 60%;
 }
 
@@ -19,6 +18,7 @@
     color: var(--primary-color);
     font-size: 1.3rem;
     font-weight: var(--fw-regular);
+    margin: 10px auto;
 }
 
 /***RESPONSIVE***/
