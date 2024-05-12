@@ -11,7 +11,7 @@
 
 .Info-Container__subtitle{
     color: var(--primary-color);
-    font-weight: var(--fw-light);
+    font-weight: var(--fw-regular);
     font-size: 1.3rem;
 }
 
