@@ -3,12 +3,18 @@ import { Buttons } from '../Buttons/Buttons'
 import { Info } from '../Info/Info'
 import { Socials } from '../Socials/Socials'
 import { ProfileImg } from '../ProfileImg/ProfileImg'
+import { motion } from 'framer-motion'
 
 
 function App() {
 
   return (
-    <div className='AppContainer'>
+    <motion.div 
+      initial={ {opacity: 0} }
+      animate={ {opacity: 1} }
+      transition={{duration:1,
+        ease: 'easeInOut'}}
+      className='AppContainer'>
 
       <div className='AppContainer__img'>
         <ProfileImg />
@@ -20,7 +26,7 @@ function App() {
         <Buttons />
       </div>
 
-    </div>
+    </motion.div>
     
   )
 }
