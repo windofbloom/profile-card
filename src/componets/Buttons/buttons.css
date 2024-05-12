@@ -14,6 +14,7 @@
 
 .Portfolio-button {
     display: flex;
+    justify-content: space-between;
     color: var(--light-color);
     padding: 15px 30px;
     border-radius: 20px;

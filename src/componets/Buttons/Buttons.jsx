@@ -21,7 +21,7 @@ function Buttons () {
                 whileHover={{ scale: 0.9 }}
                 transition={{ type: "spring", stiffness: 200, damping: 6 }}
                 href='https://cara.app/windofbloom' className='Portfolio-button button_art'>
-               Art Portfolio 
+               Artist Portfolio 
                <ArtIcon color={"white"} size={25} />
             </motion.a>
         </div>
