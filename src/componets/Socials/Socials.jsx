@@ -24,8 +24,7 @@ function Socials () {
                 <GithubIcon color={"#092147"} size={40} />
             </a>
             <a href="https://www.instagram.com/windofbloom">
-               <InstagramIcon color={"#092147"} size={40} /> 
-
+               <InstagramIcon color={"#092147"} size={40} />
             </a>
         </div>
     )

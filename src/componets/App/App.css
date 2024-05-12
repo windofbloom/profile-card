@@ -34,5 +34,9 @@
     .AppContainer {
         max-width: 95%;
     }
+
+    .AppContainer__info {
+        padding: 30px;
+    }
   
  }

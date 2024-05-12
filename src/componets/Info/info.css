@@ -5,14 +5,12 @@
 
 .Info-Container__title {
     color: var(--primary-color);
-    font-size: 1.3rem;
     font-weight: var(--fw-bold);
     font-size: 2.5rem;
 }
 
 .Info-Container__subtitle{
     color: var(--primary-color);
-    font-size: 1.3rem;
     font-weight: var(--fw-light);
     font-size: 1.3rem;
 }

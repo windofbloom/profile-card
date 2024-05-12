@@ -1,6 +1,22 @@
 .Socials {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     margin: 15px 0 15px 0;
+    width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+    .Socials {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+ }
+
+ @media screen and (max-width: 1766px) {
+    .Socials {
+        width: 100%;
+    }
+ }
