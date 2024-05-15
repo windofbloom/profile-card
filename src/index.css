@@ -103,3 +103,9 @@ a:link, a:visited, a:active {
   }
 
 }
+
+@media screen and (max-width: 1766px) {
+  body {
+    overflow: auto;
+  }
+}
