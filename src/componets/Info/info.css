@@ -6,6 +6,23 @@
     color: var(--primary-color);
     font-weight: var(--fw-bold);
     font-size: 2.5rem;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s, cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking*/
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+/* typing effect */
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; } /* Set final width */
 }
 
 .Info-Container__subtitle{
@@ -20,6 +37,8 @@
     font-weight: var(--fw-regular);
     margin: 10px auto;
 }
+
+.text-container { display: inline-block; }
 
 /***RESPONSIVE***/
  
