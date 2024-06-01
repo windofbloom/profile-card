@@ -18,5 +18,6 @@
  @media screen and (max-width: 1766px) {
     .Socials {
         width: 100%;
+        gap: 20px;
     }
  }

@@ -83,10 +83,13 @@ body {
   scroll-behavior: smooth;
   font-family: var(--ff-primary);
   background-image: url('..\src\assets\imgs\background.png');
+  background-size: contain;
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   color: var(--primary-color);
   overflow: hidden;
 }
