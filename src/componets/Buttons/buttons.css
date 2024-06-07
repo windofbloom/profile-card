@@ -53,8 +53,11 @@
   
  }
 
- @media screen and (max-width: 1766px) {
+ @media screen and (min-width: 1200px) {
     .Button-Container {
         text-align: center;
+        margin: auto;
     }
  }
+
+ 
