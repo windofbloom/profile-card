@@ -44,6 +44,10 @@
 
  /*** Background ***/
 
+ .AppBackground_container {
+    overflow: hidden;
+ }
+
 
 #up {
     position: absolute;
