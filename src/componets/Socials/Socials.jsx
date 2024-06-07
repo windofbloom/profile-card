@@ -17,9 +17,6 @@ function Socials () {
             <a href="https://www.behance.net/windofbloom">
                 <BehanceIcon color={"#092147"} size={50} />
             </a>
-            <a href="https://es.fiverr.com/windofbloom">
-                <FiverIcon color={"#092147"} size={40} />
-            </a>
             <a href="https://github.com/windofbloom">
                 <GithubIcon color={"#092147"} size={40} />
             </a>

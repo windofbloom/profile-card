@@ -9,6 +9,7 @@ import { motion } from 'framer-motion'
 function App() {
 
   return (
+    <>
     <motion.div 
       initial={ {opacity: 0} }
       animate={ {opacity: 1} }
@@ -25,9 +26,12 @@ function App() {
         <Socials />
         <Buttons />
       </div>
-
     </motion.div>
-    
+        <section id="up"></section>
+        <section id="down"></section>
+        <section id="left"></section>
+        <section id="right"></section>
+    </>
   )
 }
 
