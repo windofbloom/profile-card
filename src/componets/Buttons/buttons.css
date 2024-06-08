@@ -54,9 +54,9 @@
  }
 
 <<<<<<< HEAD
- @media screen and (min-width: 1100px) and (max-width: 1800px) {
+
 =======
- @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) and (max-width: 1800px) {
 >>>>>>> 168482d8a63481abb17b0afad477742b3a39bcdf
     .Button-Container {
         text-align: center;
