@@ -1,3 +1,4 @@
+
 import './App.css'
 import { Buttons } from '../Buttons/Buttons'
 import { Info } from '../Info/Info'
@@ -27,10 +28,12 @@ function App() {
         <Buttons />
       </div>
     </motion.div>
+    <div className='AppBackground_container'>
         <section id="up"></section>
         <section id="down"></section>
         <section id="left"></section>
         <section id="right"></section>
+    </div>
     </>
   )
 }

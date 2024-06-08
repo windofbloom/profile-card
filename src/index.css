@@ -1,3 +1,4 @@
+
 /***https://piccalil.li/blog/a-modern-css-reset***/
 
 /* Box sizing rules */
@@ -83,12 +84,19 @@ body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  height: 100%;
   background-image: linear-gradient(80deg, rgb(5, 124, 172), #092147);
   font-family: var(--ff-primary);
   color: var(--primary-color);
   overflow: hidden;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
 }
 
 a:link, a:visited, a:active {
@@ -104,7 +112,7 @@ a:link, a:visited, a:active {
 
 }
 
-@media screen and (max-width: 1766px) {
+@media screen and (max-width: 1200px) {
   body {
     overflow: auto;
   }
