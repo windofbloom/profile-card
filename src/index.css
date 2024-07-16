@@ -85,7 +85,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-image: linear-gradient(80deg, rgb(5, 124, 172), #092147);
   font-family: var(--ff-primary);
   color: var(--primary-color);
   overflow: hidden;
@@ -96,7 +95,9 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
+  background-color: hsla(173, 77%, 83%, 1);
+  background-image: radial-gradient(circle at 5% 1%, hsla(250, 76%, 61%, 1) 7%, transparent 84%), radial-gradient(circle at 7% 81%, hsla(184, 91%, 91%, 1) 16%, transparent 53%), radial-gradient(circle at 11% 29%, hsla(213, 97%, 75%, 1) 8%, transparent 74%), radial-gradient(circle at 39% 52%, hsla(149, 93%, 64%, 1) 6%, transparent 68%), radial-gradient(circle at 90% 50%, hsla(118, 94%, 89%, 1) 2%, transparent 85%);
+  background-blend-mode: normal, normal, normal, normal, normal;
 }
 
 a:link, a:visited, a:active {

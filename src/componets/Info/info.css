@@ -26,13 +26,13 @@
 }
 
 .Info-Container__subtitle{
-    color: var(--light-gray);
-    font-weight: var(--fw-regular);
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
     font-size: 1.3rem;
 }
 
 .Info-Container__text {
-    color: var(--light-gray);
+    color: var(--primary-color);
     font-size: 1.3rem;
     font-weight: var(--fw-regular);
     margin: 10px auto;
