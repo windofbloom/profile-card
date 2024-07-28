@@ -94,7 +94,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center; 
-  background-attachment: fixed;
 }
 
 a:link, a:visited, a:active {
