@@ -53,6 +53,10 @@
     .Info-Container__title {
         line-height: 2.2rem;
     }
+
+    .Info-Container__text {
+        font-size: 1.1rem;
+    }
   
  }
 
