@@ -102,4 +102,13 @@ a:link, a:visited, a:active {
 }
 
 
+/***RESPONSIVE***/
+ 
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../src/assets/imgs/background-mobile.png);
+  }
+
+}
+
 
