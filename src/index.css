@@ -68,6 +68,7 @@ svg {
 
   --primary-color: #092147;
   --accent-color: #0f3c7f;
+  --contrast-color: hsla(250, 76%, 61%, 1);
   --secondary-color: #97B2DF;
   --light-color: #f1f1f1;
   --light-gray: #dddddd;

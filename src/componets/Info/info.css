@@ -1,5 +1,6 @@
 .Info-Container {
-    width: 60%;
+    width: 100%;
+    text-align: center;
 }
 
 .Info-Container__title {
@@ -29,6 +30,7 @@
     color: var(--primary-color);
     font-weight: var(--fw-bold);
     font-size: 1.3rem;
+    margin-top: -10px;
 }
 
 .Info-Container__text {

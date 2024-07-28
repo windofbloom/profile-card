@@ -6,25 +6,32 @@ import { motion } from 'framer-motion'
 function Buttons () {
 
     return(
-        <div
-            className='Button-Container'>
-            <motion.a 
-                whileTap={{ scale: 0.9 }}
-                whileHover={{ scale: 0.9 }}
-                transition={{ type: "spring", stiffness: 200, damping: 6 }}
-                href='https://www.behance.net/gallery/197509895/UXUI-Designer-Portfolio' className='Portfolio-button button_uxui'>
-                UX/UI Portfolio 
-                <BookmarkIcon color={"white"} size={25} />
-            </motion.a>
-            <motion.a 
-                whileTap={{ scale: 0.9 }}
-                whileHover={{ scale: 0.9 }}
-                transition={{ type: "spring", stiffness: 200, damping: 6 }}
-                href='https://cara.app/windofbloom' className='Portfolio-button button_art'>
-               Artist Portfolio 
-               <ArtIcon color={"white"} size={25} />
-            </motion.a>
+        <div className='Button-Container'>
+            <div>
+                <button 
+                    className='Portfolio-button button_uxui'
+                    onClick={() => window.open('https://www.behance.net/gallery/197509895/UXUI-Designer-Portfolio', '_blank')} >
+                    UX/UI Portfolio
+                </button>
+
+                <button 
+                    className='Portfolio-button button_art'
+                    onClick={() => window.open('https://cara.app/windofbloom', '_blank')}>
+                    Art Portfolio</button>
+            </div>
+            <div>
+                <button 
+                    className='Portfolio-button'
+                    disabled={true}
+                    onClick={() => window.open('', '_blank')}>
+                    Commissions (soon)</button>
+                <button 
+                    className='Portfolio-button button_kofi'
+                    onClick={() => window.open('https://ko-fi.com/windofbloom', '_blank')}>
+                    Buy me a Ko-FI ❥</button>
+            </div>
         </div>
+   
     )
 }
 

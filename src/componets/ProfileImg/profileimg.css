@@ -1,20 +1,20 @@
 .profile__img {
     border-radius: 30px;
-    max-width: 500px;
-    min-width: 340px;
+    max-width: 400px;
+    min-width: 300px;
 }
 
 /***RESPONSIVE***/
  
 @media screen and (max-width: 768px) {
     .profile__img {
-        max-width: 340px;
+        max-width: 300px;
     }
   
  }
 
  @media screen and (max-width: 744px) {
     .profile__img {
-        max-width: 340px;
+        max-width: 300px;
     }
  }

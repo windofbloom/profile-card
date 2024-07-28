@@ -2,9 +2,10 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
+    /*justify-content: center;
+    width: 90%;*/
     text-decoration: none;
+    margin: auto;
 }
 
 .Button-Container > * {
@@ -22,6 +23,8 @@
     margin: 10px auto;
     font-weight: var(--fw-bold);
     text-transform: uppercase;
+    background-color: var(--contrast-color);
+    border: var(--contrast-color) 2px solid;
 }
 
 .Portfolio-button:hover {
@@ -33,11 +36,17 @@
 .button_uxui {
     background-color: var(--primary-color);
     border: var(--primary-color) 2px solid;
+    padding: 15px 40px 15px 40px;
 }
 
 .button_art {
     background-color: var(--accent-color);
     border: var(--accent-color) 2px solid;
+    padding: 15px 45px 15px 45px;
+}
+
+.button_kofi {
+    padding: 15px 35px 15px 35px;
 }
 
 /***RESPONSIVE***/
