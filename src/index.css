@@ -66,10 +66,10 @@ svg {
 
 :root {
 
-  --primary-color: #092147;
-  --accent-color: #0f3c7f;
-  --contrast-color: hsla(250, 76%, 61%, 1);
-  --secondary-color: #97B2DF;
+  --primary-color: #392b12;
+  --accent-color: #5b5024;
+  --contrast-color: #c98c60;
+  --secondary-color: #994e52;
   --light-color: #f1f1f1;
   --light-gray: #dddddd;
 

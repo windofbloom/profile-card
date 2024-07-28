@@ -12,16 +12,16 @@ function Socials () {
         <div className='Socials'>
             
             <a href="https://www.figma.com/@windofbloom">
-                <FigmaIcon color={"#092147"} size={40}/>
+                <FigmaIcon color={"#392b12"} size={40}/>
             </a>
             <a href="https://www.behance.net/windofbloom">
-                <BehanceIcon color={"#092147"} size={50} />
+                <BehanceIcon color={"#392b12"} size={50} />
             </a>
             <a href="https://github.com/windofbloom">
-                <GithubIcon color={"#092147"} size={40} />
+                <GithubIcon color={"#392b12"} size={40} />
             </a>
             <a href="https://www.instagram.com/windofbloom">
-               <InstagramIcon color={"#092147"} size={40} />
+               <InstagramIcon color={"#392b12"} size={40} />
             </a>
         </div>
     )

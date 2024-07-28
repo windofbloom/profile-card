@@ -28,9 +28,9 @@
 }
 
 .Portfolio-button:hover {
-    border: var(--light-color) 2px solid;
+    border: var(--secondary-color) 2px solid;
     background-color: transparent;
-    color: var(--light-color);
+    color: var(--secondary-color);
 }
 
 .button_uxui {
